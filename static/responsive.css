@@ -1,0 +1,19 @@
+body{
+    overflow: hidden;
+}
+#ttt{
+    flex-direction: column;
+    justify-content: center;
+}
+#ttt::before{
+    width: 100%;
+    height: 100%;
+}
+#body{
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+}
+.heading{
+    font-size: 2rem;
+    padding: 15px;
+}

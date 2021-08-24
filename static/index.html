@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:883px)" href="responsive.css">
+    <script defer src="https://cdn.socket.io/3.1.3/socket.io.min.js" integrity="sha384-cPwlPLvBTa3sKAgddT6krw0cJat7egBga3DJepJyrLl4Q9/5WLra3rrnMcyTyOnh" crossorigin="anonymous"></script>
+    <script defer src="client.js"></script>
+</head>
+<body>
+    <div id="joining">
+        
+    </div>
+    <div id="ttt">
+        <h1 class="heading">Tic-tac-Toe Game</h1>
+    <section id="body">
+        <div class="container corner" id="first" onclick="  symbol1()">
+            <div class="xsymbol" id="number1"></div>
+        </div>
+        <div class="container middle" id="second" onclick="symbol2()">
+            <div class="xsymbol" id="number2"></div>
+           
+        </div>
+        <div class="container corner" id="third" onclick="symbol3()">
+            <div class="xsymbol" id="number3"></div>
+        </div>
+        <div class="container middle" id="fourth" onclick="symbol4()">
+            <div class="xsymbol" id="number4"></div>
+        </div>
+        <div class="container center" id="fifth" onclick="symbol5()">
+            <div class="xsymbol" id="number5"></div>
+        </div>
+        <div class="container middle" id="sixth" onclick="symbol6()">
+            <div class="xsymbol" id="number6"></div>
+        </div>
+        <div class="container corner" id="seventh" onclick="symbol7()">
+            <div class="xsymbol" id="number7"></div>
+        </div>
+        <div class="container middle" id="eighth" onclick="symbol8()">
+            <div class="xsymbol" id="number8"></div>
+        </div>
+        <div class="container corner" id="ninth" onclick="symbol9()">
+            <div class="xsymbol" id="number9"></div>
+        </div>
+    </section>
+    <h1 class="heading">Tic-tac-Toe Game</h1>
+    </div>
+</body>
+</html>
